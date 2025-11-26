@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Placeholder
-        run: echo "AI Review workflow will be enabled in Section 5."
+        run: echo "AI Review workflow will be enabled later on."
 
