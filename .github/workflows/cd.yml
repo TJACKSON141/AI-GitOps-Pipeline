@@ -1,1 +1,12 @@
+name: CD Pipeline (Disabled Until further steps)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: CD workflow placeholder
+        run: echo "CD pipeline will be implemented later on."
 
