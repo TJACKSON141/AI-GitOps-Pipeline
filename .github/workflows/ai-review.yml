@@ -1,1 +1,12 @@
+name: AI Code Review (Disabled Until Further steps)
+
+on:
+  workflow_dispatch:  # Only runs when manually triggered
+
+jobs:
+  disabled:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder
+        run: echo "AI Review workflow will be enabled in Section 5."
 
