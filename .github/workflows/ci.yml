@@ -1,1 +1,12 @@
+name: CI Pipeline (Disabled Until further steps)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: CI workflow placeholder
+        run: echo "CI pipeline will be implemented later on."
 
